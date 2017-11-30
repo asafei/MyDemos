@@ -25,5 +25,12 @@
         android:text="ScrollView引导页"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/guide_carousel"
+        android:text="轮播图片"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
 
 </LinearLayout>

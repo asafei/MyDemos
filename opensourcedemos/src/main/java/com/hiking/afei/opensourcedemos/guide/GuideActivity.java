@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.hiking.afei.opensourcedemos.R;
+import com.hiking.afei.opensourcedemos.guide.carousel.CarouselActivity;
 import com.hiking.afei.opensourcedemos.guide.scrollview.ScrollViewActivity;
 import com.hiking.afei.opensourcedemos.guide.splash.SplashActivity;
 import com.hiking.afei.opensourcedemos.guide.viewflipper.ViewFlipperActivity;
@@ -48,6 +49,12 @@ public class GuideActivity extends AppCompatActivity {
             }
         });
 
+        findViewById(R.id.guide_carousel).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(GuideActivity.this, CarouselActivity.class));
+            }
+        });
 
     }
 

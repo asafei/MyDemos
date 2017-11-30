@@ -39,6 +39,8 @@
         </activity>
         <activity android:name=".guide.scrollview.ScrollViewActivity">
         </activity>
+        <activity android:name=".guide.carousel.CarouselActivity">
+        </activity>
     </application>
 
 </manifest>
